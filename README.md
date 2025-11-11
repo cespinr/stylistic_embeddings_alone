@@ -63,13 +63,10 @@ Statistical analysis via Wilcoxon tests reveals that **style embeddings capture 
 
 ## Authors
 
-- **César Espin-Riofrio** - University of Guayaquil - cesar.espinr@ug.edu.ec
-- **Jenny Ortiz-Zambrano** - University of Guayaquil - jenny.ortizz@ug.edu.ec
-- **Arturo Montejo-Ráez** - University of Jaen - amontejo@ujaen.es
+
 
 ## Acknowledgments
 
-- University of Guayaquil
-- University of Jaen
+
 - SemEval-2024 Task 8 organizers
 - RAID benchmark creators

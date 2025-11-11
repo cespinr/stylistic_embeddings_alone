@@ -108,7 +108,7 @@ common_words_en = set(words.words())
 common_words_en
 
 def unusual_word_frequency(text):
-    """Calcula la frecuencia de palabras inusuales comparadas con un corpus de palabras comunes."""
+    """Calculate the frequency of unusual words compared to a corpus of common words."""
     words_in_text = set(word.lower() for word in text.split())
     common_set = common_words_en
     unusual_words = words_in_text - common_set

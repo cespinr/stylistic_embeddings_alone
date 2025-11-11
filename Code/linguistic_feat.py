@@ -41,17 +41,6 @@ path_ft = "/content/drive/MyDrive/Research2025/Raid/dfs_Preproc_Caract/"
 df_train = pd.read_json(path_ft + 'df_train_en_clean.jsonl', orient='records', lines=True)
 df_train.shape
 
-# Sample 10% of the training data, ensuring both classes are included proportionally
-df_train = df_train.groupby('label').apply(lambda x: x.sample(frac=0.01, random_state=42)).reset_index(drop=True)
-
-# Shuffle the sampled data
-df_train = df_train.sample(frac=1, random_state=42).reset_index(drop=True)
-
-print(f"Sampled {len(df_train)} training records with the following class distribution:")
-print(df_train['label'].value_counts())
-
-df_train
-
 !python -m spacy download en_core_web_sm
 
 # Download English stopwords from NLTK

@@ -111,21 +111,11 @@ Statistical analysis via Wilcoxon tests reveals that **style embeddings capture 
 **✓✓ = Highly suitable; ✓ = Suitable; × = Not suitable**
 
 ## 📄 Citation
-```bibtex
-@article{espin2025stylistic,
-  title={Stylistic Embeddings: A Straightforward Approach to AI Text Detection},
-  author={Espin-Riofrio, C{\'e}sar and Ortiz-Zambrano, Jenny and Montejo-R{\'a}ez, Arturo},
-  journal={Knowledge and Information Systems},
-  year={2025},
-  publisher={Springer Nature}
-}
-```
+
 
 ## Authors
 
-- **César Espin-Riofrio** - University of Guayaquil - cesar.espinr@ug.edu.ec
-- **Jenny Ortiz-Zambrano** - University of Guayaquil - jenny.ortizz@ug.edu.ec
-- **Arturo Montejo-Ráez** - University of Jaen - amontejo@ujaen.es
+
 
 ## Acknowledgments
 

@@ -8,7 +8,7 @@ A minimalist approach to AI-generated text detection that challenges the assumpt
 - **Style embeddings alone** achieve F1 scores of 0.8875 (SemEval-2024) and 0.9287 (RAID)
 - A single feature type (style embeddings) captures **96.6-98.5%** of the discriminative power of complex 4-feature systems.
 - Outperform fine-tuned RoBERTa-base by up to **3.7 percentage points**
-- Achieve within **3.6%** of state-of-the-art competition winners
+- Achieve within **3.4%** of state-of-the-art competition winners
 - Deliver **125-500× parameter reduction** vs. ensemble LLMs
 
 ## Approach
